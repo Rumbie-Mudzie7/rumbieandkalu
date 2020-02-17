@@ -1,3 +1,48 @@
 .circles {
     list-style-type: circle;
 }
+
+#navbar {
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#navbar {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left: 0;
+    background-color: grey;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+#main-doc {
+    margin-left: 100px;
+    padding: 0px 1.5rem;
+}
+
+
+.navbar-nav {
+    width: 100% !important;
+}
+
+
+.nav-item {
+    border-bottom: 1px solid white !important; 
+}
+
+@media screen and (min-width: 480px){
+    #navbar{
+        width: 200px;
+        float: left;
+    }
+
+    #main-doc{
+        margin-left: 216px;
+    }
+}
